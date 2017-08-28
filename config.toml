@@ -1,0 +1,56 @@
+# Site settings (baseurl must end with a trailing slash!)
+baseurl = "https://tinyatcal.github.io/"
+copyright = "Copyright &#169; by TNiY"
+title = "TNiY @ Cal"
+languageCode = "en-US"
+config = "config.toml"
+theme = "osprey"
+canonifyURLS = true
+googleAnalytics = ""
+# disqusShortname = "tomanistor"
+# disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
+
+[Params]
+    tagline = "Talent in You..."
+    author = "T.I.n.Y."
+    description = "Chinese Drama and Entertainment Company"
+    logoBig = "/images/tiny-logo.jpg"
+    logoSmall = "/images/tiny-logo.jpg"
+    favicon = "/images/favicon.ico"
+    opengraphImage = "/images/tiny-logo.png"
+    facebook = "tiny.berkeley"
+    email = "tiny.berkeley@gmail.com"
+    mail_to_email = "mailto:tiny.berkeley@gmail.com"
+    googleTagManager = ""
+    highlightJS = true
+    copyright = true
+    credit = true
+    customCSS = false
+    cacheBustCSS = false
+    cacheBustJS = false
+    ajaxFormspree = true
+
+[[menu.main]]
+    name = "About"
+    url  = "/#about"
+    weight = 1
+[[menu.main]]
+    name = "Past Productions"
+    url  = "/#work"
+    weight = 2
+[[menu.main]]
+    name = "Activities"
+    url  = "/#activities"
+    weight = 3
+#[[menu.main]]
+#    name = "Contact Us"
+#    url  = "/#contact"
+#    weight = 4
+[[menu.main]]
+    name = "Structure"
+    url  = "/#structure"
+    weight = 5
+[[menu.main]]
+    name = "FAQ/报名"
+    url  = "/#faq"
+    weight = 6
